@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PyCFD.iml" filepath="$PROJECT_DIR$/.idea/PyCFD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PyIAST/.idea/PyIAST.iml" filepath="$PROJECT_DIR$/../PyIAST/.idea/PyIAST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyProject.iml" filepath="$PROJECT_DIR$/.idea/PyProject.iml" />
     </modules>
   </component>
 </project>

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bc3d166-5875-497c-a0a7-caf7e534ae1f" name="Default Changelist" comment="" />
+    <list default="true" id="7727a521-f108-4530-8b03-cf4fbfd9c90f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1ZEC13SuPO3PflX7vFAo3Ssxo0V" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y7KY1KEg43zrVKL94SGzBe2oYZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,11 +22,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Water Loading Zone/python code" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="Step 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyCFD" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a00527965\Desktop\PyProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Navier-Stokes Channel">
+    <configuration name="2-D Burger's Eq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -30,7 +43,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Step 1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-D Burger's Eq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -39,9 +52,104 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2-D Laplace" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-D Laplace.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2-D Poisson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-D Poisson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Navier-Stokes Cavity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Navier-Stokes Cavity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Navier-Stokes Channel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Navier-Stokes Channel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.2-D Burger's Eq" />
+      <item itemvalue="Python.2-D Laplace" />
+      <item itemvalue="Python.2-D Poisson" />
+      <item itemvalue="Python.Navier-Stokes Cavity" />
+      <item itemvalue="Python.Navier-Stokes Channel" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Step 1" />
+        <item itemvalue="Python.Navier-Stokes Channel" />
+        <item itemvalue="Python.Navier-Stokes Cavity" />
+        <item itemvalue="Python.2-D Poisson" />
+        <item itemvalue="Python.2-D Laplace" />
+        <item itemvalue="Python.2-D Burger's Eq" />
       </list>
     </recent_temporary>
   </component>
@@ -50,54 +158,96 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8bc3d166-5875-497c-a0a7-caf7e534ae1f" name="Default Changelist" comment="" />
-      <created>1584394647096</created>
+      <changelist id="7727a521-f108-4530-8b03-cf4fbfd9c90f" name="Default Changelist" comment="" />
+      <created>1582288236750</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584394647096</updated>
+      <updated>1582288236750</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="415" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584395280881">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="4425" y="146" key="#Burger's_Eq" timestamp="1582532903185">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1584395280881" />
-    <state x="521" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584395767809">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="4425" y="146" key="#Burger's_Eq/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582532903185" />
+    <state x="4298" y="178" key="#Inspections" timestamp="1582542710115">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="521" y="285" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963@0.0.1504.963" timestamp="1584395767809" />
-    <state x="532" y="236" key="FileChooserDialogImpl" timestamp="1584395574804">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="4298" y="178" key="#Inspections/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582542710115" />
+    <state x="427" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582376787887">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="236" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1584395574804" />
-    <state width="938" height="168" key="GridCell.Tab.0.bottom" timestamp="1584395960701">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="2347" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582288313959" />
+    <state x="427" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582376787887" />
+    <state x="4588" y="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582296033065">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="168" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1584395960701" />
-    <state width="938" height="168" key="GridCell.Tab.0.center" timestamp="1584395960700">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="2668" y="401" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582288429928" />
+    <state x="4588" y="401" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582296033065" />
+    <state x="4406" y="125" key="#test" timestamp="1582295906486">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="168" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1584395960700" />
-    <state width="938" height="168" key="GridCell.Tab.0.left" timestamp="1584395960700">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="4406" y="125" key="#test/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582295906486" />
+    <state x="4485" y="262" key="FileChooserDialogImpl" timestamp="1583133591610">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="168" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1584395960700" />
-    <state width="938" height="168" key="GridCell.Tab.0.right" timestamp="1584395960700">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="4485" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1583133591610" />
+    <state width="1531" height="149" key="GridCell.Tab.0.bottom" timestamp="1582706163363">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="168" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1584395960700" />
-    <state x="254" y="124" key="SettingsEditor" timestamp="1584395588606">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582291105162" />
+    <state width="1531" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582706163363" />
+    <state width="1276" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582478475797" />
+    <state width="1531" height="149" key="GridCell.Tab.0.center" timestamp="1582706163363">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1584395588606" />
-    <state x="815" y="415" key="com.intellij.ide.util.TipDialog" timestamp="1584395249965">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582291105162" />
+    <state width="1531" height="149" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582706163363" />
+    <state width="1276" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582478475796" />
+    <state width="1531" height="149" key="GridCell.Tab.0.left" timestamp="1582706163363">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="815" y="415" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1584395249964" />
-    <state x="383" y="27" width="739" height="909" key="find.popup" timestamp="1584394929310">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582291105162" />
+    <state width="1531" height="149" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582706163363" />
+    <state width="1276" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582478475796" />
+    <state width="1531" height="149" key="GridCell.Tab.0.right" timestamp="1582706163363">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="383" y="27" width="739" height="909" key="find.popup/0.0.1504.963@0.0.1504.963" timestamp="1584394929310" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582291105162" />
+    <state width="1531" height="149" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582706163363" />
+    <state width="1276" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582478475796" />
+    <state width="1276" height="344" key="GridCell.Tab.1.bottom" timestamp="1582533644655">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1276" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582533644655" />
+    <state width="1276" height="344" key="GridCell.Tab.1.center" timestamp="1582533644655">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1276" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582533644655" />
+    <state width="1276" height="344" key="GridCell.Tab.1.left" timestamp="1582533644654">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1276" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582533644654" />
+    <state width="1276" height="344" key="GridCell.Tab.1.right" timestamp="1582533644655">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1276" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582533644655" />
+    <state x="4314" y="240" key="SettingsEditor" timestamp="1582293443238">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2394" y="240" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582288405436" />
+    <state x="4314" y="240" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582293443238" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582874659517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1582531302080" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1582288242714" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582874659517" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582472364804" />
+    <state x="4369" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582537234295">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4369" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1582537234295" />
   </component>
 </project>
