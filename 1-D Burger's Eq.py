@@ -38,6 +38,7 @@ for n in range(nt):
     u[-1] = u[0] # u[-1] = u[nx-1]
 
 pyplot.figure(figsize=(11,7),dpi=100)
+pyplot.grid(color='grey', linestyle='-', linewidth=0.2)
 pyplot.xlim([0,2*numpy.pi])
 pyplot.ylim([0,10])
 pyplot.plot(x,u,label='t = 100 s')

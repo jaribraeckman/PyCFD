@@ -19,4 +19,4 @@ for n in range(nt):
     for i in range(1, nx):
         u[i] = un[i] - c*(dt/dx)*(un[i] - un[i-1])
 pyplot.plot(numpy.linspace(0, 2, nx), u)
-#pyplot.show()
+pyplot.show()
