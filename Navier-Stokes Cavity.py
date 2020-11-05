@@ -60,13 +60,14 @@ ny = 41
 nit = 50
 x = numpy.linspace(0, 2, nx)
 y = numpy.linspace(0, 2, ny)
-rho = 0.1
+X,Y = numpy.meshgrid(x,y)
+rho = 1000
 nu = 0.1
 dt = 0.001
 u = numpy.zeros((ny,nx))
 v = numpy.zeros((ny,nx))
 b = numpy.zeros((ny,nx))
 p = numpy.zeros((ny,nx))
-nt = 500
+nt = 100
 u, v, p = cavity_flow(nt, u, v, dt, dx, dy, p, rho, nu)
-plot_cavity(x,y,p,u,v)
+plot_cavity(X,Y,p,u,v)

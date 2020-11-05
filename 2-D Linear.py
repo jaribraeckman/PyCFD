@@ -22,7 +22,7 @@ fig = pyplot.figure(figsize=(11,7),dpi=100)
 ax = fig.gca(projection='3d')
 X,Y = numpy.meshgrid(x, y)
 surf = ax.plot_surface(X, Y, u[:])
-#pyplot.show()
+pyplot.show()
 
 for n in range(nt+1):
     un = u.copy()
@@ -43,4 +43,4 @@ for n in range(nt+1):
 fig = pyplot.figure(figsize=(11,7), dpi=100)
 ax = fig.gca(projection='3d')
 surf2 = ax.plot_surface(X,Y,u[:],cmap=cm.viridis)
-#pyplot.show()
+pyplot.show()

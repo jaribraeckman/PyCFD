@@ -15,16 +15,12 @@ def plot2D(x, y, p):
     ax.set_ylabel('$y$')
     pyplot.show()
 
-def plot_cavity(x,y,p,u,v):
-    fig = pyplot.figure(figsize=(11,7), dpi=100)
-    X,Y = numpy.meshgrid(x,y)
-    # plotting the pressure field as a contour
+def plot_cavity(X,Y,p,u,v):
+    fig = pyplot.figure(figsize=(11, 7), dpi=100)
     pyplot.contourf(X, Y, p, alpha=0.5, cmap=cm.viridis)
     pyplot.colorbar()
-    # plotting the pressure field outlines
     pyplot.contour(X, Y, p, cmap=cm.viridis)
-    # plotting velocity field
-    pyplot.streamplot(X,Y,u,v)
+    pyplot.streamplot(X, Y, u, v)
     pyplot.xlabel('X')
     pyplot.ylabel('Y')
     pyplot.show()
