@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7727a521-f108-4530-8b03-cf4fbfd9c90f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/neumann.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neumann.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,70 +59,7 @@
       <recent name="C:\Users\a00527965\Desktop\PyProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Navier-Stokes Cavity">
-    <configuration name="1-D Burger's Eq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-D Burger's Eq.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2-D Laplace" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-D Laplace.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2-D Poisson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-D Poisson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.neumann">
     <configuration name="Navier-Stokes Cavity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,20 +102,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Neumann.py" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neumann.py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="neum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="neumann" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neumann.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.2-D Laplace" />
-      <item itemvalue="Python.2-D Poisson" />
       <item itemvalue="Python.Navier-Stokes Cavity" />
       <item itemvalue="Python.Navier-Stokes Channel" />
-      <item itemvalue="Python.1-D Burger's Eq" />
+      <item itemvalue="Python.neum" />
+      <item itemvalue="Python.Neumann.py" />
+      <item itemvalue="Python.neumann" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Navier-Stokes Cavity" />
-        <item itemvalue="Python.1-D Burger's Eq" />
+        <item itemvalue="Python.neumann" />
+        <item itemvalue="Python.Neumann.py" />
+        <item itemvalue="Python.neum" />
         <item itemvalue="Python.Navier-Stokes Channel" />
-        <item itemvalue="Python.2-D Poisson" />
-        <item itemvalue="Python.2-D Laplace" />
+        <item itemvalue="Python.Navier-Stokes Cavity" />
       </list>
     </recent_temporary>
   </component>
@@ -210,25 +212,49 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1604579223937">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="513" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604601365364">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1604248583253" />
+    <state x="513" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963@0.0.1504.963" timestamp="1604601365364" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1604609085771">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1604609085771" />
+    <state width="1483" height="221" key="GridCell.Tab.0.bottom" timestamp="1604609470369">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="221" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1604609470369" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604579223937" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1604579223937">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1483" height="221" key="GridCell.Tab.0.center" timestamp="1604609470369">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1604248583253" />
+    <state width="1483" height="221" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1604609470369" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604579223937" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1604579223937">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1483" height="221" key="GridCell.Tab.0.left" timestamp="1604609470369">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1604248583252" />
+    <state width="1483" height="221" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1604609470369" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604579223937" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1604579223937">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1483" height="221" key="GridCell.Tab.0.right" timestamp="1604609470369">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1604248583253" />
+    <state width="1483" height="221" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1604609470369" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604579223937" />
+    <state width="1483" height="317" key="GridCell.Tab.1.bottom" timestamp="1604608786232">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1604608786232" />
+    <state width="1483" height="317" key="GridCell.Tab.1.center" timestamp="1604608786231">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1604608786231" />
+    <state width="1483" height="317" key="GridCell.Tab.1.left" timestamp="1604608786231">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1604608786231" />
+    <state width="1483" height="317" key="GridCell.Tab.1.right" timestamp="1604608786232">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1604608786232" />
   </component>
 </project>
