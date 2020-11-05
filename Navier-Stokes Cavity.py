@@ -3,8 +3,8 @@ from plot import plot_cavity
 from poisson import pressure_poisson
 from poisson import build_up_b
 
-nx = 41
-ny = 41
+nx = 100
+ny = 100
 dx = 2/(nx-1)
 dy = 2/(ny-1)
 u = numpy.zeros((ny,nx))
@@ -55,13 +55,11 @@ def cavity_flow(nt, u, v, dt, dx, dy, p, rho, nu):
 
     return u, v, p
 
-nx = 41
-ny = 41
 nit = 50
 x = numpy.linspace(0, 2, nx)
 y = numpy.linspace(0, 2, ny)
 X,Y = numpy.meshgrid(x,y)
-rho = 1000
+rho = 1
 nu = 0.1
 dt = 0.001
 u = numpy.zeros((ny,nx))
