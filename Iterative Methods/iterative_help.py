@@ -30,12 +30,25 @@ def CM(n):
 
     return l, d_n, up
 
+def CMR(n, w):
+    # build coefficients matrix A (AX = B)
+    d = -4*np.ones(n) # main diagonal
+    l = w*np.ones(n-1) # lower diagonal
+    up = w*np.ones(n-1) # upper diagonal
+
+    d_n = d.copy() # modified diagonal
+    # d'[i] = d[i] - (l[i-1]/d[i-1])*up[i-1]
+    for i in range(1,n):
+        d_n[i] = d[i] - up[i-1]*l[i-1]/d_n[i-1]
+
+    return l, d_n, up
+
 # thomas algorithm
 def TDMA(B, l, d_n, n, up):
     n = np.size(B)
 
     # forward elimination of lower-diagonal elements
-    for i in range(1,N):
+    for i in range(1,n):
         B[i] = B[i] - B[i-1]*l[i-1]/d_n[i-1]
 
     X = np.zeros_like(B)

@@ -64,7 +64,7 @@ def gauss_seidel(u, u_a, f, h, max_err, max_it):
 
     return u_n, it, conv, t
 
-def sor(u, u_a, f, h, max_err, max_it,w):
+def sor(u, u_a, f, h, max_err, max_it, w):
     t = time.time()
     conv = []
     it = 0
@@ -96,6 +96,76 @@ def sor(u, u_a, f, h, max_err, max_it,w):
 
     return u_n, it, conv, t
 
+def line_gauss_seidel(u, u_a, f, h, max_err, max_it, method):
+    t = time.time()
+    conv = []
+    it = 0
+    u_n = u.copy()
+    nx, ny = np.shape(u)
+    l, d_n, up = help.CM(ny)
+    B = np.zeros(nx)
 
+    if method == 'column':
+        while True:
+            it = it + 1
+            for j in range(1,ny-1):
+                B[1:-1] = - u_n[1:-1,j+1] - u_n[1:-1,j-1] + f[1:-1,j]*h**2
+                u_n[1:-1,j] = help.TDMA(B[1:-1], l, d_n, ny, up)
 
+            err = help.error(u_n, u_a)
+
+            conv = np.concatenate((conv, [err]))
+
+            if err < max_err:
+                break
+
+            if it >= max_it:
+                break
+
+    if method == 'row':
+        while True:
+            it = it + 1
+            for i in range(1,nx-1):
+                B[1:-1] = - u_n[i+1,1:-1] - u_n[i-1,1:-1] + f[i,1:-1]*h**2
+                u_n[i,1:-1] = help.TDMA(B[1:-1], l, d_n, nx, up)
+
+            err = help.error(u_n, u_a)
+
+            conv = np.concatenate((conv, [err]))
+
+            if err < max_err:
+                break
+
+            if it >= max_it:
+                break
+
+    if method == 'adi':
+        while True:
+            it = it + 1
+            for j in range(1,ny-1):
+                B[1:-1] = - u_n[1:-1,j+1] - u_n[1:-1,j-1] + f[1:-1,j]*h**2
+                u_n[1:-1,j] = help.TDMA(B[1:-1], l, d_n, ny, up)
+
+            for i in range(1,nx-1):
+                B[1:-1] = - u_n[i+1,1:-1] - u_n[i-1,1:-1] + f[i,1:-1]*h**2
+                u_n[1:-1,j] = help.TDMA(B[1:-1], l, d_n, nx, up)
+
+            err = help.error(u_n, u_a)
+
+            conv = np.concatenate((conv, [err]))
+
+            if err < max_err:
+                break
+
+            if it >= max_it:
+                break
+
+    t = time.time() - t
+
+    print('Computation time: ' + ('%.5f' %t) + 's')
+    print('Iterations: ', it)
+    print('Maximum error: ' + ('%.4f' %err))
+    help.plt2d(conv, it, 'Line Gauss-Seidel method')
+
+    return u_n, it, conv, t
 

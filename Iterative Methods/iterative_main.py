@@ -23,7 +23,7 @@ u0[-1,:] = 0
 u0[0,:] = 0 # boundary conditions
 
 # solve with Jacobi solver
-u_j, it_j, conv_j, t_j = solver.jacobi(u0, u_a, f, h, 0.01, 1000)
+u_j, it_j, conv_j, t_j = solver.line_gauss_seidel(u0, u_a, f, h, 0.01, 1000, 'column')
 
 # plot analytical solution and initial guess
 fig = plt.figure(figsize = (16,6), dpi = 50)
